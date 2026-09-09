@@ -1,0 +1,26 @@
+# Week 3 – Implementation of Data Security Controls
+
+## Telecom Sector Data Security Analyst Internship
+
+### 1. Introduction
+
+This week focuses on the practical implementation of data security controls in a telecom network environment. The objective is to convert the risks identified during the previous risk and vulnerability assessment into practical security measures.
+
+A telecom environment handles sensitive information such as customer identity data, subscriber details, call records, network information, authentication data and service-related information. Therefore, security controls must protect confidentiality, integrity and availability while allowing authorized users and systems to operate efficiently.
+
+The implementation plan in this week covers access control, multi-factor authentication, encryption, firewalls, IDS/IPS, network segmentation, secure APIs, logging and monitoring, backup protection, patch management and security testing.
+
+---
+
+## 2. Control Selection
+
+The following controls were selected based on common telecom security risks:
+
+| Security Control | Main Purpose | Risk Addressed |
+|---|---|---|
+| Access Control | Restrict unauthorized access | Unauthorized access |
+| Multi-Factor Authentication | Strengthen user authentication | Account compromise |
+| Encryption | Protect sensitive data | Data leakage |
+| Firewall | Control network traffic | Unauthorized network access |
+| IDS/IPS | Detect and prevent attacks | Network attacks |
+| Network Segmentation | Isolate
