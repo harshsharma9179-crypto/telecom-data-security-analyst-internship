@@ -1,0 +1,11 @@
+Control,Risk Addressed,Implementation,Technical Requirement,Testing Method,Maintenance Frequency,Responsible Team
+RBAC,Unauthorized access,Define roles and assign minimum permissions,Role-based permissions and least privilege,Access control testing,Monthly,Security and IAM Team
+MFA,Account compromise,Enable MFA for privileged and remote users,Password plus second authentication factor,Authentication testing,Monthly,Security and IAM Team
+Encryption,Data leakage,Encrypt data in transit and at rest,TLS and storage encryption,Encryption configuration verification,Quarterly,Security Team
+Firewall,Unauthorized network access,Allow approved traffic and block unnecessary traffic,Firewall rules and default deny approach,Firewall rule validation,Monthly,Network Security Team
+IDS/IPS,Network attacks,Monitor and detect suspicious network activity,Detection rules and security alerts,Controlled alert testing,Weekly,Security Operations Team
+Network Segmentation,Lateral movement,Separate critical systems into security zones,Restricted zone-to-zone communication,Connectivity testing,Quarterly,Network Security Team
+API Security,API abuse and data exposure,Use authentication authorization validation and rate limiting,Secure API controls and TLS,API security testing,Monthly,Application Security Team
+Logging and Monitoring,Delayed incident detection,Collect and monitor security events,Centralized logs and alerting,Log verification,Daily,Security Operations Team
+Backup Protection,Data loss and ransomware,Maintain protected backups and test restoration,Access-controlled backup storage,Backup restoration test,Monthly,IT Operations Team
+Patch Management,Known vulnerabilities,Identify test approve and deploy security patches,Controlled patch lifecycle,Patch compliance verification,Monthly,IT Operations Team
